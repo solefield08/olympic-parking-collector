@@ -1,6 +1,7 @@
 name: Collect Parking Data
 
 on:
+  push:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
