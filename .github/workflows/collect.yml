@@ -28,3 +28,4 @@ jobs:
 
       - name: Run Collector
         run: python collector.py --once
+# cron enabled
